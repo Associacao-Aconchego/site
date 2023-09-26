@@ -1814,6 +1814,10 @@ section {
   text-decoration: none;
 }
 
+.footer .ssl img {
+  max-width: 200px;
+}
+
 
 /*--------------------------------------------------------------
 # IFrame
