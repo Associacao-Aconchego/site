@@ -1370,7 +1370,7 @@ section {
 }
 
 .pricing .pricing-item {
-  padding: 60px 40px;
+  padding: 30px 40px;
   box-shadow: 0 3px 20px -2px rgba(var(--color-gray-rgb), 0.15);
   background: var(--color-white);
   height: 100%;
@@ -1379,6 +1379,38 @@ section {
   border: 4px solid var(--color-white);
   border-radius: 10px;
   overflow: hidden;
+}
+
+.pricing-header h4 {
+  color: white;
+  font-weight: bold;
+}
+
+.pricing .pricing-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing .pricing-box {
+  max-width: 450px;
+  width: 100%;
+}
+
+.pricing .qrcode-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.pricing .qrcode span {
+  color: white !important;
+}
+.pricing .qrcode {
+  max-width: 200px;
 }
 
 .pricing .pricing-header {
@@ -1403,9 +1435,15 @@ section {
 .pricing h4 {
   font-size: 48px;
   color: var(--color-white);
-  font-weight: 400;
+  font-weight: bold;
+  text-transform: uppercase;
   font-family: var(--font-primary);
+  margin-bottom: 1rem;
+}
+
+.pricing .pricing-header p {
   margin-bottom: 0;
+  color: white;
 }
 
 .pricing h4 sup {
